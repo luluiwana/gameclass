@@ -1,0 +1,62 @@
+15 Agustus 2020
+GURU
+- Fitur login
+- Fitur register
+SISWA
+- Fitur login
+- Fitur register
+- Fitur Livecode
+- Tampilan Dashboard Siswa
+
+16 Agustus 2020
+GURU
+- Membuat Dashboard guru
+- Guru dapat menambahkan kelas baru
+SISWA
+- Memperbaiki Tampilan Dashboard Siswa
+
+17 Agustus 2020
+SISWA
+- Siswa dapat mengambil kelas
+- Perbaikan bug (kelas yg sudah diambil masih muncul di cari kelas)
+- Dashboard siswa hanya menampilkan 6 kelas terbaru
+- Membuat menu kelas (Siswa)
+- Menampilkan jumlah kelas yg diambil siswa di Dashboard Siswa
+- Membuat halaman kelas
+GURU
+- Dashboard guru hanya menampilkan 6 kelas terbaru
+- Membuat menu guru (Siswa)
+- Menampilkan jumlah kelas yg dibuat guru di Dashboard Guru
+- Menampilkan jumlah siswa yang diajar di Dashboard Guru
+
+22 Agustus 2021
+GURU
+- Membuat sub menu kelas (Kelas, Rekap Nilai, Siswa, Pengaturan)
+- Menampilkan daftar nama dan identitas siswa
+- Fitur pencarian dan sorting data siswa di menu kelas->Siswa
+- Mengurutkan nama siswa berdasarkan abjad secara defaut pada fitur kelas->siswa
+- Mengedit Data Kelas (Nama Kelas, Nama Sekolah, Logo)
+- Menghapus kelas
+- Mengeluarkan siswa dari kelas
+
+23 Agustus 2021
+SISWA
+- Membuat sub menu kelas (Misi, aktivitas, teman, dan informasi kelas)
+
+25 Agustus 2021
+SISWA
+- Mengubah Profil (Mengganti nama, email, dan no telp)
+- Mengubah password
+- Mengganti avatar
+- Melihat daftar teman satu kelas
+- Keluar dari kelas
+GURU
+- Mengubah Profil (Mengganti nama, email, dan no telp)
+- Mengubah password
+- Mengganti avatar
+
+30 Agustus 2021
+SISWA
+- Menampilkan materi
+- Menampilkan level
+- Menampilkan karakter sesuai level

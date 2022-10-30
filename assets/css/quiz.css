@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* p {
+    margin: 0%
+} */
+
+/* 
+
+.container {
+    margin: 30px auto;
+    background: white;
+    padding: 20px 15px
+}
+
+label.box {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd
+} */
+
+/* #one:checked~label.first,
+#two:checked~label.second,
+#three:checked~label.third,
+#four:checked~label.forth,
+#five:checked~label.fifth,
+#six:checked~label.sixth,
+#seven:checked~label.seveth,
+#eight:checked~label.eighth {
+    border-color: #8e498e
+} */
+
+/* input[type=radio]:checked .circle{
+    border: 6px solid #8e498e;
+    background-color: #fff
+} */
+
+
+
+/* #one:checked~label.first .circle,
+#two:checked~label.second .circle,
+#three:checked~label.third .circle,
+#four:checked~label.forth .circle,
+#five:checked~label.fifth .circle,
+#six:checked~label.sixth .circle,
+#seven:checked~label.seveth .circle,
+#eight:checked~label.eighth .circle {
+    border: 6px solid #8e498e;
+    background-color: #fff
+} */
+/* 
+label.box:hover {
+    background: #d5bbf7
+}
+
+
+
+label.box .course {
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+label.box .circle {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #ddd;
+    display: inline-block
+} */
+
+/* input[type="radio"] {
+    display:
+} */
+/* 
+.btn.btn-primary {
+    border-radius: 25px;
+    margin-top: 20px
+} */
+
+.options {
+    position: relative;
+    padding-left: 40px
+}
+
+#options label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.options input {
+    opacity: 0
+}
+
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #555;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    vertical-align: center;
+}
+
+.options input:checked~.checkmark:after {
+    display: block
+}
+
+.options .checkmark:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    vertical-align: center;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms ease-in-out 0s
+}
+
+.options input[type="radio"]:checked~.checkmark {
+    background: #21bf73;
+    transition: 300ms ease-in-out 0s
+}
+
+.options input[type="radio"]:checked~.checkmark:after {
+    transform: translate(-50%, -50%) scale(1)
+}
+
+@media(max-width: 450px) {
+    .subject {
+        font-size: 16px
+    }
+}
